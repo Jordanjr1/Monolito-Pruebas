@@ -71,7 +71,7 @@ namespace Capa_Negocio
                 mail.AlternateViews.Add(avHtml);
 
                 System.Net.Mail.SmtpClient smtp = new System.Net.Mail.SmtpClient("smtp.gmail.com", 587);
-                smtp.Credentials = new System.Net.NetworkCredential("jordanramos3323@gmail.com", "Skrillex777.");
+                smtp.Credentials = new System.Net.NetworkCredential("jordanramos3323@gmail.com", "semtpkgjpwywdmhx");
                 smtp.EnableSsl = true;
 
                 smtp.Send(mail);
@@ -234,7 +234,7 @@ namespace Capa_Negocio
                 </div>";
 
                 System.Net.Mail.SmtpClient smtp = new System.Net.Mail.SmtpClient("smtp.gmail.com", 587);
-                smtp.Credentials = new System.Net.NetworkCredential("jordanramos3323@gmail.com", "Skrillex777.");
+                smtp.Credentials = new System.Net.NetworkCredential("jordanramos3323@gmail.com", "semtpkgjpwywdmhx");
                 smtp.EnableSsl = true;
 
                 smtp.Send(mail);
